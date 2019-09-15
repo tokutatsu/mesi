@@ -1,0 +1,16 @@
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+C:/Ruby25-x64/bin/ruby.exe -r ./siteconf20190915-1560-zlm4is.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190915-1560-un0d8d/skiptrace/internal
