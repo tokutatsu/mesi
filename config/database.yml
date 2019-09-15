@@ -13,9 +13,10 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password:
-  host: localhost
+  username: <%= Rails.application.credentials.mysql[:username] %>
+  password: <%= Rails.application.credentials.mysql[:password] %>
+  host: <%= Rails.application.credentials.mysql[:host] %>
+  port: <%= Rails.application.credentials.mysql[:port] %>
 
 development:
   <<: *default
