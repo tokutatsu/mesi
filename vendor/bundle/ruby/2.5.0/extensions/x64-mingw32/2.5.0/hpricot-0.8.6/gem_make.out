@@ -1,0 +1,22 @@
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/hpricot-0.8.6/ext/hpricot_scan
+C:/Ruby25-x64/bin/ruby.exe -r ./siteconf20190917-21120-1sggdov.rb extconf.rb
+checking for main() in -lc... no
+creating Makefile
+
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/hpricot-0.8.6/ext/hpricot_scan
+make "DESTDIR=" clean
+
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/hpricot-0.8.6/ext/hpricot_scan
+make "DESTDIR="
+generating hpricot_scan-x64-mingw32.def
+compiling hpricot_css.c
+hpricot_css.c: In function 'hpricot_css':
+hpricot_css.c:3407:9: warning: comparison between pointer and integer
+ 3407 |  if ( p == eof )
+      |         ^~
+compiling hpricot_scan.c
+linking shared-object hpricot_scan.so
+
+current directory: C:/Users/17t248/Documents/GitHub/mesi/vendor/bundle/ruby/2.5.0/gems/hpricot-0.8.6/ext/hpricot_scan
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hpricot_scan.so ./.gem.20190917-21120-194ndrq
