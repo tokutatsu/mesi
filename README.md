@@ -19,7 +19,7 @@ $ GRANT ALL PRIVILEGES ON *.* TO 'mesi_user'@'localhost';
 ### rails
 初めにgemとwebpackerのインストールを行います。
 ```
-$ bundle install --`path vendor/bundle
+$ bundle install --path vendor/bundle
 $ bundle exec rails webpacker:install
 ```
 次にデータベースを`database.yml`の内容に従って作成します。
