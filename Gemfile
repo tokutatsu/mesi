@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'slim-rails'
 gem 'html2slim'
+gem 'devise'
+gem 'omniauth-google-oauth2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
