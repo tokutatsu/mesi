@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'tops#index'
-  get '/resource', to: 'welcomes#index'
+  # resource '/index', to: 'welcomes#index'
+  resources :welcomes
   devise_for :users, controllers: {
     omniauth_callbacks: 'users/omniauth_callbacks'
   }
