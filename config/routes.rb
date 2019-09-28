@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   root 'tops#index'
   resources :welcomes
-  # delete 'logout/:id', to: 'sessions#destroy'
   devise_scope :user do
     get '/users/sign_out', to: 'devise/sessions#destroy'
   end
