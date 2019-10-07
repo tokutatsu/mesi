@@ -27,6 +27,12 @@ gem 'html2slim'
 gem 'devise'
 gem 'omniauth-google-oauth2'
 
+group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+end
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
