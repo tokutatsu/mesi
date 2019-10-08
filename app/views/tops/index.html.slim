@@ -2,3 +2,5 @@ h1 Tops#index
 p Find me in app/views/tops/index.html.slim
 
 = link_to "ログアウト", destroy_user_session_path, method: :delete
+
+p #{current_user.email}
