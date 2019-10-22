@@ -24,5 +24,5 @@ $ bundle exec rails webpacker:install
 ```
 次にデータベースを`database.yml`の内容に従って作成します。
 ```
-$ bundle exec rake db:setup
+$ bundle exec rails db:setup
 ```
